@@ -22,7 +22,25 @@
 	    );
 	};
 
+	let boton = document.querySelector(".reproductor")
+    let audioEtiqueta = document.querySelector("audio")
 
+    boton.addEventListener("click", () => {
+		audioEtiqueta.setAttribute("src", "./audio/cancion.mp3")
+		var play = boton.classList.contains('play');
+		if(play){
+			boton.classList.add('pause')
+			boton.classList.remove('play')
+			audioEtiqueta.pause()
+		}else{
+			boton.classList.remove('pause')
+			boton.classList.add('play')
+			audioEtiqueta.play()
+		}
+      
+      
+      console.log(`Reproduciendo: ${audioEtiqueta.src}`)
+    });
 
 	// Carousel Feature Slide
 	var testimonialCarousel = function(){
@@ -310,6 +328,8 @@
 		
 	
 	}
+
+	
 
 	// Document on load.
 	$(function(){
