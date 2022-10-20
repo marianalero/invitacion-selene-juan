@@ -26,7 +26,7 @@
     let audioEtiqueta = document.querySelector("audio")
 
     boton.addEventListener("click", () => {
-		audioEtiqueta.setAttribute("src", "./audio/cancion.mp3")
+		audioEtiqueta.setAttribute("src", "./audio/cancion3.mp3")
 		var play = boton.classList.contains('play');
 		if(play){
 			boton.classList.add('pause')
