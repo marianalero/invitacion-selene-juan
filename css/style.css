@@ -763,12 +763,12 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-countdown .countdown span {
   margin: 0 0;
   display: inline-block;
-  font-family: "Source Sans Pro", cursive;
+  font-family: 'Made Avenue PERSONAL USE', serif;
 }
 #qbootstrap-countdown .countdown small {
   display: block;
   font-size: 14px;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Made Avenue PERSONAL USE', serif;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
