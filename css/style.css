@@ -5,6 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Made Avenue PERSONAL USE';
+  src: url("../fonts/MADEAvenuePERSONALUSE-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
 /* =======================================================
 *
 * 	Template Style 
@@ -16,7 +23,7 @@ html{
   overflow-x: hidden;
 }
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Made Avenue PERSONAL USE', serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.8;
@@ -24,6 +31,7 @@ body {
   background: #fff;
   height: 100%;
   position: relative;
+  text-transform: uppercase;
 }
 
 a {
@@ -66,6 +74,7 @@ p {
   text-transform: initial;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .texto-blanco{
@@ -78,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Great Vibes", cursive;
   font-weight: 400;
+  text-transform: none;
 }
 
 ::-webkit-selection {
